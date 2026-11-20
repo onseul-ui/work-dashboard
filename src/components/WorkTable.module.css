@@ -1,0 +1,84 @@
+.wrap {
+  border: 1px solid var(--sage);
+  border-radius: var(--radius);
+  background: var(--white);
+  overflow: hidden;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+}
+
+.colCategory {
+  width: 140px;
+}
+
+.colType {
+  width: 112px;
+}
+
+.colCheck {
+  width: 112px;
+}
+
+.colAction {
+  width: 72px;
+}
+
+.table th {
+  height: 36px;
+  padding: 0 12px;
+  background: var(--sage);
+  font-weight: 600;
+  text-align: left;
+  white-space: nowrap;
+}
+
+.table td {
+  height: var(--row-height);
+  padding: 0 12px;
+  border-top: 1px solid var(--sage);
+}
+
+.table tbody tr {
+  cursor: pointer;
+}
+
+.table tbody tr:hover {
+  background: var(--ivory);
+}
+
+.table tbody tr.selected {
+  background: var(--blue);
+}
+
+.center {
+  text-align: center !important;
+}
+
+.ellipsis {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.title {
+  font-weight: 500;
+}
+
+.empty {
+  padding: 40px 16px;
+  text-align: center;
+  color: var(--brown-muted);
+}
+
+.srOnly {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+}

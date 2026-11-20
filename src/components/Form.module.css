@@ -1,0 +1,51 @@
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin-bottom: 14px;
+}
+
+.field:last-child {
+  margin-bottom: 0;
+}
+
+.label {
+  font-weight: 600;
+}
+
+.required {
+  margin-left: 2px;
+}
+
+.radios {
+  display: flex;
+  gap: 16px;
+}
+
+.radio {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  cursor: pointer;
+}
+
+.radio input {
+  margin: 0;
+  accent-color: var(--brown);
+}
+
+.error {
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.inline {
+  display: flex;
+  gap: 6px;
+}
+
+.stack {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}

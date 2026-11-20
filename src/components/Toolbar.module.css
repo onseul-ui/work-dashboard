@@ -1,0 +1,15 @@
+.toolbar {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+
+.search {
+  flex: 1;
+  min-width: 160px;
+  max-width: 320px;
+}
+
+.filter {
+  width: 160px;
+}

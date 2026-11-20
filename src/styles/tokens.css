@@ -1,0 +1,18 @@
+:root {
+  /* 디자인 시스템 컬러 토큰 */
+  --brown: #513229;
+  --ivory: #f4f1e2;
+  --blue: #d8ebf9;
+  --yellow: #fce6b7;
+  --sage: #d7d4b1;
+  --white: #ffffff;
+
+  /* 보조 텍스트: white·ivory·sage·blue·yellow 배경 모두 대비 4.5:1 이상 (최저 sage 4.59:1) */
+  --brown-muted: #715349;
+
+  --font: 'Pretendard', -apple-system, BlinkMacSystemFont, system-ui, sans-serif;
+  --font-size: 14px;
+  --radius: 6px;
+  --row-height: 40px;
+  --panel-width: 520px;
+}

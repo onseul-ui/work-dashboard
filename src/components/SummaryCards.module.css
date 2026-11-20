@@ -1,0 +1,27 @@
+.cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 12px;
+  padding: 16px 24px;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  height: 64px;
+  padding: 0 16px;
+  border: 1px solid var(--sage);
+  border-radius: var(--radius);
+  background: var(--white);
+}
+
+.label {
+  font-weight: 500;
+}
+
+.count {
+  margin-left: auto;
+  font-size: 24px;
+  font-weight: 700;
+}

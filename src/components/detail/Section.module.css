@@ -1,0 +1,14 @@
+.section {
+  padding: 16px 0;
+  border-bottom: 1px solid var(--sage);
+}
+
+.section:last-child {
+  border-bottom: 0;
+}
+
+.heading {
+  margin-bottom: 12px;
+  font-size: 15px;
+  font-weight: 700;
+}
